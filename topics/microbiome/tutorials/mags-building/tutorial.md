@@ -67,6 +67,10 @@ This tutorial is designed for anyone interested in reconstructing MAGs from pair
 
 To guide through this process, we will use **Galaxy workflows** developed within the [FAIRyMAGs project](https://elixir-europe.org/how-we-work/scientific-programme/commissioned-services/science/bfsp/fairymags) and maintained by the [Intergalactic Workflow Commission](https://iwc.galaxyproject.org/). These workflows are available via the [IWC Workflow Library](https://iwc.galaxyproject.org/), as well as two workflow registries: [WorkflowHub](https://workflowhub.eu/) and [Dockstore](https://dockstore.org/).
 
+{% include _includes/cyoa-choices.html option1="Honey Bee Gut Microbiome" option2="Australian Microbiome" default="Avocados"
+       text="Here is why some people choose Ananas. Other times you want Avocados as they fit the menu better." %}
+
+<div class="Honey-Bee-Gut-Microbiome" markdown="1">
 ### Case Study: Honey Bee Gut Microbiome
 
 To illustrate the workflows, we will use public data from a study investigating the response of the **honey bee gut microbiota** to *Nosema ceranae* (a highly prevalent microsporidian parasite) under the influence of a probiotic and/or a neonicotinoid insecticide ({% cite sbaghdi2024response %}). The honey bee gut microbiome comprises a relatively simple core community dominated by **five bacterial lineages**, including *Snodgrassella alvi* and *Gilliamella apicola*, which play essential roles in digestion, immunity, and pathogen defense ({% cite motta2024honeybee %}). However, this microbiome is highly sensitive to abiotic stressors, such as pesticides, pollutants, and climate change ({% cite motta2024honeybee %}, {% cite ramsey2019varroa %}, {% cite alberoni2021neonicotinoids %}). For example, exposure to neonicotinoids has been linked to shifts in microbial diversity and increased susceptibility to opportunistic pathogens {% cite alberoni2021neonicotinoids %}.
@@ -1356,3 +1360,7 @@ Functional annotation using **Bakta** is a **powerful approach** to uncover the 
 # Conclusion
 
 In this tutorial, we have navigated the comprehensive workflow of Metagenomics Assembled Genomes (MAGs) building, transforming raw sequencing reads into biologically meaningful insights about microbial communities. Each step in the process is essential for ensuring the accuracy, completeness, and relevance of your results and contributes to a robust and comprehensive understanding of the diversity, abundance, and functional potential of the microbes present.
+</div>
+<div class="Australian-Microbiome" markdown="1">
+Test Australian Microbiome
+</div>
